@@ -1,5 +1,4 @@
 #include <DHT.h>
-
 #define DHTPIN 2
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
@@ -23,5 +22,5 @@ void loop() {
   Serial.print(" %, Soil Moisture: ");
   Serial.println(soilMoisture);
 
-  delay(2000); // Read data every 2 seconds
+  delay(200000); // Read data every 2 seconds
 }

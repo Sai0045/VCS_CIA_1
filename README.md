@@ -10,7 +10,7 @@ It detects plant diseases and monitors plant health by analyzing environmental c
 | Name         | Role                          | Contribution                                      |
 |--------------|-------------------------------|---------------------------------------------------|
 |   Sairaj     | Embedded Systems Developer    | Configured ESP32-CAM and sensor integration       |
-|   Aksha      | Machine Learning Engineer     | Trained ML model for plant disease detection      |
+|   Akshay     | Machine Learning Engineer     | Trained ML model for plant disease detection      |
 |   Pramod     | Software Developer            | Developed firmware and cloud integration          |
 |   Swadesh    | Hardware Engineer             | Designed circuit and handled hardware interfacing |
 

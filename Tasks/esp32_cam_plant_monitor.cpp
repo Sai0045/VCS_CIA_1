@@ -20,5 +20,5 @@ void setup() {
 }
 
 void loop() {
-  delay(10000); // Keeps the ESP32-CAM running
+  delay(1000); // Keeps the ESP32-CAM running
 }

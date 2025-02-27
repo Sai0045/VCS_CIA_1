@@ -22,5 +22,8 @@ void loop() {
   Serial.print(" %, Soil Moisture: ");
   Serial.println(soilMoisture);
 
+  delay(3000); // Read data every 2 seconds
+
   delay(200000); // Read data every 2 seconds
+main
 }

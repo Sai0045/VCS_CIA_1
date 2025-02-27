@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Monitoring Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { margin: 20px auto; width: 50%; }
+        h1 { color: green; }
+    </style>
+</head>
+<body>
+    <h1>🌱 Plant Monitoring System 🌱</h1>
+    <p>Live Temperature: <strong id="temp">24°C</strong></p>
+    <p>Humidity: <strong id="humidity">55%</strong></p>
+    <p>Soil Moisture: <strong id="soil">280</strong></p>
+
+    <script>
+        setInterval(() => {
+            document.getElementById("temp").innerText = Math.floor(Math.random() * 10) + 20 + "°C";
+            document.getElementById("humidity").innerText = Math.floor(Math.random() * 10) + 50 + "%";
+            document.getElementById("soil").innerText = Math.floor(Math.random() * 100) + 200;
+        }, 3000);
+    </script>
+</body>
+</html>

@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 
 # Sample sensor data
 data = {
-    "Temperature (C)": [22, 23, 24, 25, 24],
-    "Humidity (%)": [60, 58, 55, 57, 56],
-    "Soil Moisture": [300, 290, 280, 270, 260]
-    "hello"
+
 }
 
 df = pd.DataFrame(data)

@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  float temperature = dht.readTemperature();
+  float temperature = dht.writeTemperature();
   float humidity = dht.readHumidity();
   int soilMoisture = analogRead(soilMoisturePin);
 

@@ -6,7 +6,7 @@ DHT dht(DHTPIN, DHTTYPE);
 const int soilMoisturePin = A0;
 
 void setup() {
-  Serial.begin(88600);
+ 
   dht.begin();
 }
 

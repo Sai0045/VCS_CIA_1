@@ -16,9 +16,9 @@ It detects plant diseases and monitors plant health by analyzing environmental c
 
 ---
 
-## 🚀 How to Use the Code  
+ 🚀 How to Use the Code  
 
-### **🔹 1. Prerequisites**  
+ **🔹 1. Prerequisites**  
 Before running the code, install the following:  
 - **Arduino IDE** with ESP32 board support  
 - **Python 3.x** (for ML model)  
@@ -28,17 +28,17 @@ Before running the code, install the following:
 
 
 
-###🔹**2. Hardware Setup**
+🔹**2. Hardware Setup**
 1 . Connect ESP32-CAM to your computer.
 2 . Attach the DHT22 and Soil Moisture Sensor as per the circuit diagram.
 3 . Ensure the ESP32-CAM module is flashed with the correct firmware.
 
-###🔹 **3. Uploading Code to ESP32-CAM**
+🔹 **3. Uploading Code to ESP32-CAM**
 1 . Open esp32_cam_plant_monitor.ino in Arduino IDE.
 2 . Configure WiFi credentials in the code.
 3 . Select ESP32 Wrover Module as the board and upload.
 
-###🔹 **4. Running the Machine Learning Model**
+🔹 **4. Running the Machine Learning Model**
 Use plant_disease_model.py to detect diseases from captured images.
 Execute the script:
 
